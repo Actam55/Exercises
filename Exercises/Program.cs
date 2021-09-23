@@ -1,4 +1,5 @@
 ﻿using System;
+using Exercises.Classes;
 
 namespace Exercises
 {
@@ -6,7 +7,11 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Person jeff = new Person("Jeff", "Poggers", 25);
+
+            //Console.WriteLine(jeff.Fornavn);
+
+            Console.WriteLine("hello world");
         }
     }
 }
