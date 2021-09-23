@@ -8,5 +8,8 @@ namespace Exercises.Classes
 {
     class Person
     {
+        string Fornavn;
+        string Efternavn;
+        int Alder;
     }
 }
