@@ -1,5 +1,6 @@
 ﻿using MiniProjekt_Lecture_4;
 using System;
+using System.IO;
 
 namespace MiniProjekt
 {
@@ -20,6 +21,7 @@ namespace MiniProjekt
             subMenu.Add(new MenuItem("Pog", "PogChamp"));
             mainMenu.Add(subMenu);
             mainMenu.Add(new InfiniteMenu("Infinite menu"));
+            mainMenu.Add(new FileSystemMenu("Directory", new DirectoryInfo(@"C:\")));
 
 
             mainMenu.Start();
