@@ -19,7 +19,9 @@ namespace MiniProjekt
             SubMenu subMenu = new SubMenu("Sub test");
             subMenu.Add(new MenuItem("Pog", "PogChamp"));
             mainMenu.Add(subMenu);
-            
+            mainMenu.Add(new InfiniteMenu("Infinite menu"));
+
+
             mainMenu.Start();
         }
     }
