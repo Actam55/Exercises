@@ -8,7 +8,7 @@ namespace MiniProjekt_Lecture_4
 {
     public class Menu
     {
-        private List<MenuItem> MenuItem { get; set; } = new List<MenuItem>();
+        private List<IMenuItem> MenuItem { get; set; } = new List<IMenuItem>();
         private string _titel;
         private int _cursor;
         private int CursorTop;

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace MiniProjekt_Lecture_4
 {
-    interface IMenuItem
+    public interface IMenuItem
     {
+        public string Titel { get; set; }
         public void Select();
     }
 }

@@ -16,9 +16,9 @@ namespace MiniProjekt
             mainMenu.Add(new MenuItem("Oliver", "Øl"));
             mainMenu.Add(new MenuItem("Lars", "Valorant"));
 
-            Menu subMenu = new Menu("Sub test");
+            SubMenu subMenu = new SubMenu("Sub test");
             subMenu.Add(new MenuItem("Pog", "PogChamp"));
-            Menu.Add(subMenu);
+            mainMenu.Add(subMenu);
             
             mainMenu.Start();
         }
