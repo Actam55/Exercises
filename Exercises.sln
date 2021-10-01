@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises Lecture 3", "Exercises\Exercises Lecture 3.csproj", "{8FDF8BF9-59D3-446F-B92B-F38AEDFA2797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameObject Lecture 3", "GameObject\GameObject Lecture 3.csproj", "{CF71C4CF-919C-4784-B604-1CCE8A0804C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameObject Lecture 3", "GameObject\GameObject Lecture 3.csproj", "{CF71C4CF-919C-4784-B604-1CCE8A0804C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProjekt Lecture 4", "MiniProjekt\MiniProjekt Lecture 4.csproj", "{2C41ADD3-4424-477B-84C6-F4C8528C6ADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CF71C4CF-919C-4784-B604-1CCE8A0804C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF71C4CF-919C-4784-B604-1CCE8A0804C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF71C4CF-919C-4784-B604-1CCE8A0804C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C41ADD3-4424-477B-84C6-F4C8528C6ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C41ADD3-4424-477B-84C6-F4C8528C6ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C41ADD3-4424-477B-84C6-F4C8528C6ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C41ADD3-4424-477B-84C6-F4C8528C6ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
