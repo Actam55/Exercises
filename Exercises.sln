@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameObject Lecture 3", "Gam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProjekt Lecture 4", "MiniProjekt\MiniProjekt Lecture 4.csproj", "{2C41ADD3-4424-477B-84C6-F4C8528C6ADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises Lecture 5", "Exercises Lecture 5\Exercises Lecture 5.csproj", "{40AEFC08-D2E4-4CC2-AF84-35BDA7AE5F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises Lecture 5", "Exercises Lecture 5\Exercises Lecture 5.csproj", "{40AEFC08-D2E4-4CC2-AF84-35BDA7AE5F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 6 Generics", "Lecture 6 Generics\Lecture 6 Generics.csproj", "{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{40AEFC08-D2E4-4CC2-AF84-35BDA7AE5F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AEFC08-D2E4-4CC2-AF84-35BDA7AE5F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AEFC08-D2E4-4CC2-AF84-35BDA7AE5F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
