@@ -81,9 +81,6 @@ namespace Lecture_7_Delegates
             //-----------------------------------------------
             //
             //Console.WriteLine(twice(x => x * 2, 1));
-
-
-
         }
     }
 }
