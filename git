@@ -1,0 +1,101 @@
+[33mcommit e98a2b42c827418f905b6c807014845cd02508ba[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Lars_Hansen <leha20@student.aau.dk>
+Date:   Sat Oct 30 01:22:16 2021 +0200
+
+    Changed folder name for lecture 3
+
+[33mcommit f099639f5ce8f70aec6117d4496a41fa2032c2b3[m
+Author: Lars_Hansen <leha20@student.aau.dk>
+Date:   Sat Oct 30 01:18:53 2021 +0200
+
+    Renamed projects for better readability
+
+[33mcommit 6d9d23e2d74061e54d9b89cb61a9494e17b4af22[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 29 12:23:48 2021 +0200
+
+    små rettelse af for læslighed
+
+[33mcommit e125a6dc54aaca234076e33ee84c0333a52ff048[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 29 11:04:59 2021 +0200
+
+    Tilføjet Lecture 7
+
+[33mcommit cef64da88dfcbf69f751daac9bf23e696c7add8e[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 22 14:19:57 2021 +0200
+
+    Added Lecture 6
+
+[33mcommit ec1036ef5c7583055e732a5e04c9367757d491af[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 15 13:09:36 2021 +0200
+
+    Added excercises for lecture 5
+
+[33mcommit 2e28843809422830f54a953aa44fbeb638e5ccca[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 1 14:28:21 2021 +0200
+
+    Added directory serach
+
+[33mcommit da1eb3511e2f815b7ec075e26c334d28f91c3228[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 1 14:02:03 2021 +0200
+
+    Added infinite menues
+
+[33mcommit e697edb82c8e2205f7e9d1da15b0216efd6f78a0[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 1 13:26:57 2021 +0200
+
+    Sub menus work now
+
+[33mcommit 953b488979924b8fd8e91a3c17eae3fa7d12eb18[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Oct 1 12:19:51 2021 +0200
+
+    Added Lecture 4, issues with adding sub menu
+
+[33mcommit c6b9aa4f643d0db877b4a98e026605c3415963d3[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Sep 24 15:08:26 2021 +0200
+
+    Added "Lecture 3" for clarity
+
+[33mcommit e0eb14866798ee88019ae96d49aeed7535f1460f[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Fri Sep 24 14:36:54 2021 +0200
+
+    Added excercises for lecture three
+
+[33mcommit 5b367c4ab87207ccd8eb2172608c2b5ec0180872[m
+Author: Lars_Hansen <leha20@student.aau.dk>
+Date:   Thu Sep 23 19:27:36 2021 +0200
+
+    Ran into issues with a missing "Exercises.dll" file, dont know a current fix. Ask Daniel <3
+
+[33mcommit 4963e5e0df314b553421a42fea00b4e29723a16b[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Thu Sep 23 18:33:41 2021 +0200
+
+    Work on Person class
+
+[33mcommit e4ea6d741f6099e03e28df59d58669668c679082[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Thu Sep 23 18:31:15 2021 +0200
+
+    Added "Classes" folder
+
+[33mcommit f02a2754c56965daa80768e5623f62c0d129412b[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Thu Sep 23 18:26:51 2021 +0200
+
+    Add project files.
+
+[33mcommit ff8761f5fc71a25bb08568eb09609423ac0a7cb1[m
+Author: Lars Hansen <leha20@student.aau.dk>
+Date:   Thu Sep 23 18:26:49 2021 +0200
+
+    Add .gitignore and .gitattributes.
