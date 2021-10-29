@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProjekt Lecture 4", "Mi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises Lecture 5", "Exercises Lecture 5\Exercises Lecture 5.csproj", "{40AEFC08-D2E4-4CC2-AF84-35BDA7AE5F97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 6 Generics", "Lecture 6 Generics\Lecture 6 Generics.csproj", "{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture 6 Generics", "Lecture 6 Generics\Lecture 6 Generics.csproj", "{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture 7 Delegates", "Lecture 7 Delegates\Lecture 7 Delegates.csproj", "{0C7E173C-88F7-4213-9DF3-68CFB828E16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F0C6A38-AC6A-4151-92C4-8812ED277AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7E173C-88F7-4213-9DF3-68CFB828E16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7E173C-88F7-4213-9DF3-68CFB828E16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7E173C-88F7-4213-9DF3-68CFB828E16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7E173C-88F7-4213-9DF3-68CFB828E16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
