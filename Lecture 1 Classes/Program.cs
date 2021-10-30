@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Lecture_1_Classes
 {
@@ -14,8 +15,17 @@ namespace Lecture_1_Classes
             Person pauline = new Person("pauline", "hansen", 42, mormor, morfar);
             Person lars = new Person("lars", "hansen", 22, pauline, poul);
 
-            PersonPrinter.PrintPerson(lars);
-            PersonPrinter.PrintAncestry(lars);
+            //PersonPrinter.PrintPerson(lars);
+            //PersonPrinter.PrintAncestry(lars);
+
+            DirectoryInfo di = new DirectoryInfo(@"D:\DirectoryTest");
+            DirectoryInfo[] dirs = di.GetDirectories();
+
+            foreach (var item in dirs)
+            {
+                DirectoryInfo[] subDirs = item.GetDirectories(); 
+                Console.WriteLine($"Folder: {item.Name} Contains {subDirs.Length} sub folders and {item.GetFiles().Length} files");
+            }
         }
     }
 }
