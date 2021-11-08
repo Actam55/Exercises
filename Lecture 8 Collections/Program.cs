@@ -8,7 +8,6 @@ namespace Lecture_8_Collections
         static void Main(string[] args)
         {
             Sequence list = new Sequence(1, 2, 4);
-            Sequence.ShowSequence(list);
         }
     }
 }

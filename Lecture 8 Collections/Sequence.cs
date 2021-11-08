@@ -14,6 +14,11 @@ namespace Lecture_8_Collections
             Start = start;
             Skip = skip;
             Count = count;
+            data = ShowSequence();
+            foreach (int item in data)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         public List<int> data { get; set;}
@@ -21,35 +26,33 @@ namespace Lecture_8_Collections
         public int Skip { get; set; }
         public int Count { get; set; }
 
-        public static void ShowSequence(IEnumerable<int> e)
+        public List<int> ShowSequence()
         {
-            IEnumerator<int> i = e.GetEnumerator();
+            int n = 0;
+            List<int> list = new List<int>();
+            for (int i = 0; i < Count;)
+            {
+                if (n == 0)
+                {
+                    list.Add(Start);
+                    n = Start;
+                    i++;
+                }
+                else if (n % Skip == 0)
+                {
             
-
-
-
-            //int n = 0;
-            //List<int> list = new List<int>();
-            //for (int i = 0; i < Count; i++)
-            //{
-            //    if (i == 0)
-            //    {
-            //        list.Add(Start);
-            //        i = Start;
-            //    }
-            //    else if (i % Skip == 0)
-            //    {
-            //
-            //    }
-            //    else
-            //    {
-            //        list.Add(i);
-            //    }
-            //
-            //    //Console.WriteLine(i);
-            //}
-            //return list;
+                }
+                else
+                {
+                    list.Add(n);
+                    i++;
+                }
+                n++;
+            }
+            return list;
         }
+
+
 
         public IEnumerator<int> GetEnumerator()
         {
@@ -61,21 +64,30 @@ namespace Lecture_8_Collections
             return GetEnumerator();
         }
 
-        //public static void Start(IEnumerable<int> i)
+        //public static void ShowSequence(IEnumerable<int> e)
         //{
-        //    IEnumerator<int> p = i.GetEnumerator();
-        //    p.MoveNext();
-        //    Console.WriteLine(p.Current);
-        //}
-        //public static void Count(IEnumerable<int> i)
-        //{
+        //    IEnumerator<int> i = e.GetEnumerator();
         //    int n = 0;
-        //    IEnumerator<int> p = i.GetEnumerator();
-        //    while (p.MoveNext())
+        //    List<int> list = new List<int>();
+        //    for (int i = 0; i < Count; i++)
         //    {
-        //        n++;
+        //        if (n == 0)
+        //        {
+        //            list.Add(Start);
+        //            n = Start;
+        //        }
+        //        else if (n % Skip == 0)
+        //        {
+        //
+        //        }
+        //        else
+        //        {
+        //            list.Add(n);
+        //        }
+        //
+        //        //Console.WriteLine(i);
         //    }
-        //    Console.WriteLine(n);
+        //    return list;
         //}
     }
 }
